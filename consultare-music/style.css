@@ -1,0 +1,305 @@
+/*
+Theme Name: Consultare Music
+Theme URI: https://fireflythemes.com/themes/consultare-music/
+Author: FireFly Themes
+Author URI: https://fireflythemes.com/
+Description: Consultare Music is a child theme of our Dark theme Consultare. Consultare Music is a inherits functionality and feature of its parent theme but with added functionalities for professionals from music industry. Additional Playlist and Sticky Playlist features have been added. Consultare Music has a unique dark bold look which will give a cutting edge look to your website website. Customizable features and smooth design will attract new visitors to your website. The theme has been optimized to load fast and is fully responsive. You can also import demo content with plugin one click demo importer. If you want more flexible functionalities, you can also choose to upgrade to premium version of the theme. Visit https://fireflythemes.com/support for support, https://fireflythemes.com/documentation/consultare-music for theme documentation and https://demo.fireflythemes.com/consultare for demo.
+Version: 1.0.0
+Requires at least: 5.4
+Tested up to: 5.7
+Requires PHP: 5.6
+License: GPL-3.0-or-later
+License URI: https://www.gnu.org/licenses/license-list.html#GNUGPLv3
+Text Domain: consultare-music
+Template: consultare
+Tags: blog, news, entertainment, grid-layout, one-column, two-columns, left-sidebar, custom-background, custom-header, custom-logo, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Consultare Music Theme WordPress Theme, Copyright 2021 FireFly Themes
+Consultare Music Theme is distributed under the terms of the GNU GPL
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+#slider-section.overlay-enabled article:before {
+    opacity: 0.5;
+}
+
+.site-title {
+    font-family: "Oswald", sans-serif;
+}
+
+.main-navigation ul li a {
+    font-family: "Oswald", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Oswald", sans-serif;
+}
+
+#hero-content .section-title {
+    font-family: "Oswald", sans-serif;
+}
+
+#breadcrumb li a:hover,
+.bcn-breadctumb span a:hover,
+#breadcrumb li a:focus,
+.bcn-breadctumb span a:focus,
+#breadcrumb li a:active,
+.bcn-breadctumb span a:active,
+.section-portfolio .portfolio-content h3 a:hover,
+a:active,
+a:focus,
+a:hover,
+a.wwd-fonts-icon,
+a:active,
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+h1 a:focus,
+h2 a:focus,
+h3 a:focus,
+h4 a:focus,
+h5 a:focus,
+h6 a:hover,
+h1 a:active,
+h2 a:active,
+h3 a:active,
+h4 a:active,
+h5 a:active,
+h6 a:active,
+.overlap-header .site-title a:hover,
+.overlap-header .site-title a:focus,
+.overlap-header .site-title a:active,
+#main-nav .main-navigation ul li.current-menu-item>a,
+#main-nav .main-navigation ul li.current-menu-ancestor>a,
+#main-nav .main-navigation ul li:hover>a,
+#main-nav .main-navigation ul li:hover>a,
+#main-nav .main-navigation ul li:hover>a,
+#main-nav .main-navigation ul ul li.current-menu-item>a,
+#main-nav .main-navigation ul ul li.current-menu-ancestor>a,
+#main-nav .main-navigation ul ul li.current_page_item>a,
+#main-nav .main-navigation ul ul li:hover>a,
+#main-nav .main-navigation ul ul li a:hover,
+#main-nav .main-navigation ul ul li a:focus,
+#main-nav .main-navigation ul ul li a:active,
+.search-toggle:hover,
+.search-toggle:focus,
+#breadcrumb li a:hover,
+#breadcrumb li a:focus,
+#breadcrumb li a:active,
+#breadcrumb,
+.search-toggle:active,
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active,
+.entry-meta a:hover,
+.entry-meta a:focus,
+.entry-meta a:active,
+.sidebar ul li a:hover,
+.sidebar ul li a:focus,
+.sidebar ul li a:active,
+.comment-metadata>a:hover,
+.comment-metadata>a:focus,
+.comment-metadata>a:active,
+.nav-inner-wrapper.nav-black-bg .main-navigation ul li.current-menu-item>a,
+.nav-inner-wrapper.nav-black-bg .main-navigation ul li.current-menu-ancestor>a,
+.nav-inner-wrapper.nav-black-bg .main-navigation ul li.current_page_item>a,
+.nav-inner-wrapper.nav-black-bg .main-navigation ul li:hover>a,
+.nav-inner-wrapper.nav-black-bg .main-navigation ul li:hover>a,
+.nav-inner-wrapper.nav-black-bg .main-navigation ul li:hover>a,
+.section-teams .team-position,
+.counter-section .counter-icon i,
+.site-title a:hover,
+.site-title a:focus,
+.site-title a:active,
+.footer-widget-area ul li::before,
+.section .section-top-subtitle,
+.portfolio-filter a.current,
+.portfolio-filter a:hover,
+.section-counter .counter-icon i,
+.cart-contents a:hover,
+.cart-contents a:focus,
+.cart-contents a:active,
+.footer-widget-area a:active,
+.footer-widget-area a:focus,
+.footer-widget-area a:hover,
+.featured-page-section ul li:before,
+.key-features-section a.key-features-icon,
+.recent-work-filter button.current,
+.recent-work-filter button:hover,
+a.more-link,
+a.more-link:visited,
+.cart-contents a:hover,
+.cart-contents a:focus,
+.cart-contents a:active,
+.search-toggle:hover,
+.search-toggle:focus,
+.search-toggle:active,
+#slider-section a.flashy-popup-button i,
+.section-wwd a.wwd-fonts-icon,
+#quick-contact.layout-two a:active,
+#quick-contact.layout-two a:hover,
+#quick-contact.layout-two a:focus,
+#quick-contact.layout-two li:before,
+.entry-date-meta,
+.counter-section .counter-nos,
+.section-testimonial .testimonial-summary:before,
+#contact-form-section .contact-info-item i,
+a.more-link:hover,
+a.more-link:focus,
+a.more-link:active,
+.contact-icon,
+.section-testimonial .testimonial-summary p:before,
+.section-testimonial .testimonial-summary p:after,
+.pricing-section .pricing-plan-price,
+#hero-content-section a.hero-call-us i,
+#hero-content-section .hero-video i,
+#hww-section .hww-block-item h3::before,
+.page-content p a:hover, .entry-content p a:hover, .entry-summary p a:hover, 
+.widget .textwidget a:hover, .comment-content a:hover, .section p a:hover, 
+.page-content a:hover, .entry-content a:hover, .entry-summary a:hover, 
+.widget .textwidget a:hover, .comment-content a:hover, .page-content p a:focus, 
+.entry-content p a:focus, .entry-summary p a:focus, .widget .textwidget a:focus, 
+.comment-content a:focus, .section p a:focus, .page-content a:focus, .entry-content a:focus, 
+.entry-summary a:focus, .widget .textwidget a:focus, .comment-content a:focus, 
+.page-content p a:active, .entry-content p a:active, .entry-summary p a:active, 
+.widget .textwidget a:active, .comment-content a:active, .section p a:active, 
+.page-content a:active, .entry-content a:active, 
+.entry-summary a:active, .widget .textwidget a:active, .comment-content a:active {
+    color: #ef2853;
+}
+
+
+/* Background Color */
+
+.ff-button,
+.ff-button:visited,
+button,
+a.button,
+.ff-button.button-secondary:hover, 
+.ff-button.button-secondary:active,
+.ff-button.button-secondary:focus,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+#hero-section .featured-info a.more-link,
+#hero-section .featured-info a.more-link:visited,
+#promotion-section a.more-link,
+#promotion-section a.more-link:visited,
+a.scrollup,
+a.scrollup:visited,.footer-widget-area .widget-title:after,
+.section .section-title-wrap span.divider,
+#slider-section .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.cart-contents p.woocommerce-mini-cart__buttons.buttons .button,
+.section-latest-posts .latest-posts-title:after,
+#contact-form-section.style-two:after,
+#slider-section.style-three .slider-image-wrapper:after,
+.sidebar .widget-title:after,
+.section-latest-posts .new-cat a,
+.swiper-carousel-enabled .swiper-pagination-bullet-active,
+.swiper-carousel-enabled .swiper-pagination-bullet:hover,
+.swiper-carousel-enabled .swiper-pagination-bullet:focus,
+.swiper-carousel-enabled .swiper-pagination-bullet:active,
+a.comment-reply-link,
+.nav-inner-wrapper.nav-color-bg,
+.nav-inner-wrapper.nav-color-bg.sticky-enabled.sticky-header,
+.section .section-title-wrap span.divider:after,
+.section .title-divider,
+#slider-section .swiper-slide .divider,
+.overlap-header .main-navigation ul li.current-menu-item > a:before,
+.overlap-header .main-navigation ul li.current-menu-ancestor > a:before,
+.overlap-header .main-navigation ul li.current_page_item > a:before,
+.overlap-header .main-navigation ul li:hover > a:before,
+.overlap-header .main-navigation ul li a:hover:before,
+.overlap-header .main-navigation ul li a:focus:before,
+#slider-section a.more-link,
+#slider-section a.more-link:visited,
+.wwd-item-title:after,
+.featured-grid-title:after,.section-latest-posts .new-cat a,
+.post-thumbnail .cat-links a,#playlist-section .mejs-container,
+#playlist-section .mejs-embed, #playlist-section .mejs-embed body,
+#playlist-section .mejs-container .mejs-controls,
+#playlist-section .wp-playlist-tracks .wp-playlist-item.wp-playlist-playing,
+#playlist-section .wp-playlist-tracks .wp-playlist-item:hover,.pricing-section .pricing-plan-item.recommended .pricing-plan-header,#promotional-headline-section a.more-link, #promotional-headline-section a.more-link:visited,#hero-content-section .featured-info a.more-link, #hero-content-section .featured-info a.more-link:visited,.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+#slider-section .swiper-button-next:hover,#slider-section .swiper-button-prev:hover,#slider-section .swiper-button-next:focus,#slider-section .swiper-button-prev:focus,#slider-section .swiper-button-next:active,#slider-section .swiper-button-prev:active,.section .section-top-subtitle:before,.counter-section .counter-icon:before,.section-teams .social-link-plus,.section-latest-posts .new-cat a, .post-thumbnail .cat-links a, .section-latest-posts .new-cat a:visited, .post-thumbnail .cat-links a:visited,.main-navigation ul li.current-menu-item > a:before, .main-navigation ul li.current-menu-ancestor > a:before, .main-navigation ul li.current_page_item > a:before, .main-navigation ul li:hover > a:before, .main-navigation ul li a:hover:before, .main-navigation ul li a:focus:before, .main-navigation ul li a:active:before,.featured-grid-section.style-two .item-count span,.item-count:after,#tabs-nav li a:hover, #tabs-nav li.active a,#tabs-nav li.active a::after, #tabs-nav li a:hover::after,.section .section-title-wrap span.divider:before,#contact-form-section .contact-form-section:after,.featured-grid-section .item-count span,.featured-grid-section .item-count span,#wwd-section.style-one .wwd-block-item::before,mark, ins,.filter-content-content span.tags-links a,#primary-menu-toggle-mobile:hover, #header-top-toggle:hover, #primary-menu-toggle-mobile:active, #header-top-toggle:active, #primary-menu-toggle-mobile:focus, #header-top-toggle:focus,.section .section-title-wrap:before,#key-features-section.style-one .section-title-wrap .section-top-subtitle:before, .section .section-title-wrap.text-alignleft .section-top-subtitle:before, #hero-content-section.section .section-title-wrap .section-top-subtitle:before, #skill-team-section .section-title-wrap .section-top-subtitle:before, #featured-content-section.style-two .section-title-wrap .section-top-subtitle:before, #case-study-section .section-title-wrap .section-top-subtitle:before, #hww-section .section-title-wrap .section-top-subtitle:before,#featured-video-section .section-title-wrap .section-top-subtitle:before,#sticky-playlist .wp-playlist-tracks .wp-playlist-item.wp-playlist-playing, #sticky-playlist .wp-playlist-tracks .wp-playlist-item:hover,#hero-content-section a.more-link, #hero-content-section a.more-link:visited, .section.promotional-headline-section a.more-link, .section.promotional-headline-section a.more-link:visited{
+    background-color: #ef2853;
+}
+
+
+/* Border Color */
+
+.counter-section .counter-icon i,
+#quick-contact li:before,
+.contact-icon i,
+.key-features-section a.key-features-icon i,
+#wwd-section a.wwd-fonts-icon i {
+    -webkit-text-stroke-color: #ef2853;
+}
+
+.sticky .hentry-inner,
+#slider-section .swiper-slide .slider-subtitle,
+.sidebar .widget-title:after,
+#slider-section .swiper-button-next:hover,
+#slider-section .swiper-button-prev:hover,
+#slider-section .swiper-button-next:focus,
+#slider-section .swiper-button-prev:focus,
+#slider-section .swiper-button-next:active,
+#slider-section .swiper-button-prev:active,
+.pricing-section .pricing-plan-item.popular .plan-inner {
+    border-color: #ef2853;
+}
+
+.main-header-one .main-header-top,
+.inner-block-shadow {
+    border-bottom-color: #ef2853;
+}
+
+.site-border {
+    border-top-color: #ef2853;
+}
+
+.wp-block-quote:not(.is-large):not(.is-style-large),
+blockquote,
+#slider-section.style-five .slider-content-inner-wrapper { 
+    border-left-color: #ef2853;
+}
+
+
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot'); / IE9 Compat Modes /
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), / IE6-IE8 /
+       url('webfont.woff2') format('woff2'), / Super Modern Browsers /
+       url('webfont.woff') format('woff'), / Pretty Modern Browsers /
+       url('webfont.ttf')  format('truetype'), / Safari, Android, iOS /
+       url('webfont.svg#svgFontName') format('svg'); / Legacy iOS /
+}
+
+body #page { max-width: 100% }
+body div.featured-content-section.section,
+body div.site-content { padding: 0 !important }
+
+body header#masthead { border-bottom: none !important; }
+body header#masthead div.site-header-main div.container div.right-head.pull-right { float: none; }
+body header#masthead div.site-header-main div.container div.right-head.pull-right div.head-search-cart-wrap { float: right; }
+
+/*body div.site-content div.container { width: 100% !important; max-width: 100% !important }*/
